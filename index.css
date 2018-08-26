@@ -1,0 +1,90 @@
+.custom {
+    background-color: #5A5A5A;
+}
+.container-fluid{
+    height: 60px;
+    display:inline-block;
+
+}
+.Webpage{
+    font-family: "Chaparral Pro", serif;
+    font-size: 200%;
+    align:center;
+    padding:12.3px;
+    display:block;
+    text-decoration: none;
+    margin-left: -20px;
+}
+.Webpage:hover{
+    text-decoration: none;
+    background-color:white;
+}
+.navbar-nav {
+    font-family: "Chaparral Pro", serif;
+    font-size: 150%;
+    align:center;
+    padding:9.5px;
+    display:block;
+    text-decoration: none;
+}
+.active{
+    margin-left: 400px;
+}
+.First{
+    margin-left: 30px;
+}
+.Second{
+    margin-left: 30px;
+}
+.Third{
+    margin-left: 30px;
+}
+body, html {
+    height: 110%;
+}
+/* PARALLAX */
+.parallax {
+    /* The image used */
+    background-image: url('fit.jpg');
+
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    padding-top:40vh;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+.parallax-curtain{
+    height:25vh;
+    background:rgba(0,0,0,0.5);
+    color: coral;
+    text-align: center;
+}
+/*NAVBAR BOTTOM */
+.navbarbot {
+    overflow: hidden;
+    background-color: #333;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbarbot a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.Thirdbot{
+    margin-right:100px;
+}
