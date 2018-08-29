@@ -49,10 +49,12 @@ if(isset($_GET['registerbtn'])){
         <link rel="stylesheet" type="text/css" href="register.css">
     </head>
     <body>
+        <!--NAVBAR-->
         <ul>
             <li><a class="active" href="index.php">Return home</a></li>
             <div class="logo"> <img src="GyMuscle.png" height="60" width="170"></div>
         </ul>
+        <!--ScrisStanga-->
         <div class="recomend">
             <h1>WHY JOIN GYMUSCLE?</h1>
             <h2>It's <strong>FREE</strong>!</h2>
@@ -62,6 +64,7 @@ if(isset($_GET['registerbtn'])){
             <h2>Compare with your friends</h2>
             <img src="dumbelf.png" height="200" width="300">
         </div>
+        <!--Register-->
     <form method="get" action="register.php">
         <div class="container">
 
